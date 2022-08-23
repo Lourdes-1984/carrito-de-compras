@@ -17,3 +17,6 @@ function pagar( producto , precio){
     console.log(producto,precio);
     
 }
+const funcion_prueba = () => {
+    console.log('nuevo comit')
+}
