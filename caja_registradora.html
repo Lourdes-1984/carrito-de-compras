@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja registradora</title>
+</head>
+<body>
+    <h1>MiniMercado M</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Caja Registradora</legend>
+
+            <label for="selProducto">Producto</label>
+            <select name="selProducto" id="selProducto">
+            </select>
+
+            <label for="txtCantidad">Cantidad</label>
+            <input type="number" name="txtCantidad" id="txtCantidad">
+
+            <button type="button" id="AgregarAlCarrito">+</button>
+
+            <br/>
+            <ol id="ListaProductos">
+                Sin productos seleccionado
+            </ol>
+            <br/>
+            <button type="button" id="CalcularTotal">Calcular</button>
+            <span id="resultado"></span>
+        </fieldset>
+    </form>
+    <script src="js/caja_registradora.js"></script>
+</body>
+</html>

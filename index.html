@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Tienda online</title>
+  </head>
+  <body>
+    <div class="header-nav">
+      <header>
+        <div>
+          <h1>Elec <strong>Tronic</strong></h1>
+        </div>
+        <div class="nav">
+          <nav class="navbar">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Nosotros</a></li>
+              <li><a href="">Contacto</a></li>
+            </ul>
+          </nav>
+          <div>
+            <img src="img/cart.png" alt="" />
+            <button type="submit" id="pagar" onclick="pagar()">Total pagar</button>
+            <label for="">Cantidad de productos</label>
+            <input type="text" id="cantidad">
+        
+              
+            
+          </div>
+        </div>
+      </header>
+
+    </div>
+
+    
+    <div class="card-productos">
+      <div class="card">
+        
+        <img src="img/producto1.jpg" alt="">
+        <h5 id="nombre">Nombre </h5>
+        <p>$250</p>
+        <div class="contenedor-boton">
+
+          <button class="agregar-carrito" onclick="agregar('producto1' , 250)">Agregar al carrito</button>
+        </div>
+        
+      </div>
+        <div class="card">
+            <img src="img/producto2.jpg" alt="">
+            <h5>Nombre </h5>
+            <p>$250</p>
+            <div  class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto2',250)">Agregar al carrito</button>
+            </div>
+            
+          </div>
+          <div class="card">
+            
+            <img src="img/producto3.jpg" alt="" >
+            <h5>Nombre</h5>
+            <p> $150</p>
+            <div class=" contenedor-boton">
+              <button class="agregar-carrito" onclick="agregar('producto3', 150)">Agregar al carrito</button>
+
+            </div>
+            
+          </div>
+          <div class="card">
+            
+            <img src="img/producto4.jpg" alt="" >
+            <h5>Nombre</h5>
+            <p> $350</p>
+            
+            <div class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto4', 350)">Agregar al carrito</button>
+            </div>
+            
+          </div>
+          <div class="card">
+          
+            <img src="img/producto5.jpg" alt="" >
+            <h5>Nombre</h5>
+            <p> $850</p>
+            <div class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto5', 850)">Agregar al carrito</button>
+            </div>
+            
+          </div>
+          <div class="card">
+            
+            <img src="img/producto6.jpg" alt="" >
+            <h5>Nombre</h5>
+            <p> $750</p>
+            <div class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto6', 750)">Agregar al carrito</button>
+            </div>
+            
+          </div>
+          <div class="card">
+            
+            <img src="img/producto7.jpg" alt="" >
+            <h5>Nombre</h5>
+            <p> $320</p>
+            <div class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto7', 320)">Agregar al carrito</button>
+            </div>
+            
+          </div>
+          <div class="card">
+            
+            <img src="img/producto8.jpg" alt="" >
+            <div class="info">
+              <h5>Nombre</h5>
+            <p> $350</p>
+            <div class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto8', 350)">Agregar al carrito</button>
+            </div>
+            
+            </div>
+            
+          </div>
+          <div class="card">
+            
+            <img src="img/producto9.jpg" alt="" height="200px" >
+            <h5>Nombre</h5>
+            <p> $750</p>
+            <div class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto9', 750)">Agregar al carrito</button>
+            </div>
+            
+          </div>
+          <div class="card">
+        
+            <img src="img/producto10.jpg" alt="" >
+            <h5>Nombre</h5>
+            <p> $650</p>
+            <div class=" contenedor-boton">
+
+              <button class="agregar-carrito" onclick="agregar('producto10', 650)">Agregar al carrito</button>
+            </div>
+            
+          </div>
+          
+          
+    </div>
+
+    
+    <script src="js/index.js"></script>
+  </body>
+</html>
